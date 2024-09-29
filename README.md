@@ -52,7 +52,7 @@ cd OCM-Dimensions
 2. Place your `.html` file in the `input` directory.
 3. Run `make clean && make` in the terminal.
 4. Your compressed file will be `index.html`.
-5. To check if `index.html` file works locally, open `index.html` and search and replace "fetch(/content/" with "fetch(https://ordinals.com/content/".
+5. To check if `index.html` file works locally, open `index.html` and search and replace "fetch(/content/" with "fetch(https://fractal.ordstuff.info/content/".
 
 ### Use Three.js
 
@@ -62,7 +62,7 @@ cd OCM-Dimensions
     - If you don't have `minify`, just put the js code in `compressed-inputs/02_main.min.js` directly.
 3. Run `make clean && make` in the terminal.
 4. Your final file will be `index.html`.
-5. To check if `index.html` file works locally, open `index.html` and search and replace "fetch(/content/" with "fetch(https://ordinals.com/content/".
+5. To check if `index.html` file works locally, open `index.html` and search and replace "fetch(/content/" with "fetch(https://fractal.ordstuff.info/content/".
 
 ### Use p5.js
 
@@ -70,7 +70,7 @@ cd OCM-Dimensions
 2. Put your js code in `input/02_main.js`.
 3. Run `make clean && make` in the terminal.
 4. Your final file will be `index.html`.
-5. To check if `index.html` file works locally, open `index.html` and search and replace "fetch(/content/" with "fetch(https://ordinals.com/content/" (2 places).
+5. To check if `index.html` file works locally, open `index.html` and search and replace "fetch(/content/" with "fetch(https://fractal.ordstuff.info/content/" (2 places).
 
 ## Inscribing Your Art
 With your HTML, Three.js, or p5.js file compressed into `index.html`, you're ready to inscribe your art on the Bitcoin blockchain. Thanks to the OCM Dimensions, your art will be stored in a highly efficient manner, saving valuable space and allowing for more creativity. Happy coding and inscribing!

@@ -24,7 +24,7 @@
     <div id="scene"></div>
     <script>
 
-		const isTesting = false; // set to 'true' to prepend 'http://ordinals.com' to your fetch calls so you can test locally
+		const isTesting = false; // set to 'true' to prepend 'http://fractal.ordstuff.info' to your fetch calls so you can test locally
 
 		if(isTesting) {
 			alert('You are in test mode! Remember to set isTesting = false; before inscribing');
@@ -53,7 +53,7 @@
 		
 		// returns base64 encoded string of gzipped file
 		async function getFromOrdinal(ordinalID, prependOrdCom = false) {
-			let prepend = (prependOrdCom)?'http://ordinals.com':'';
+			let prepend = (prependOrdCom)?'http://fractal.ordstuff.info':'';
 			let resp = await fetch(`${prepend}/content/${ordinalID}`);
 			let encoded = await resp.text();
 			return encoded;
